@@ -9,4 +9,4 @@
 - send a json with the field "text" and the value your text
 - you will receive a dict with the words in your text and the times it has appeared
 # 
-Logic [here](Word_counter_API/app/controllers/words.py /)
+Logic [here](https://github.com/Igor-Felipy/Word_counter_API/blob/master/app/controllers/words.py)
