@@ -8,3 +8,5 @@
 ### Using the api:
 - send a json with the field "text" and the value your text
 - you will receive a dict with the words in your text and the times it has appeared
+
+### Logic [here](Word_counter_API/app/controllers/words.py /)
