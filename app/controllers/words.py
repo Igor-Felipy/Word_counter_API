@@ -1,5 +1,5 @@
 from . import controllers
-from flask import request
+from flask import request, jsonify
 
 
 @controllers.route("/", methods=["POST"])
@@ -8,7 +8,7 @@ def answer():
     text = text_old["text"]
     text_cleared = clean_text(text)
     count_dict = counter(text_cleared)
-    return count_dict
+    return jsonify(count_dict)
 
 
 
